@@ -1,0 +1,103 @@
+body{
+    background-image:url(2991.jpg);
+    
+}
+
+h1{
+    color: aliceblue;
+    font-family: "Courier New" , fantasy;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    color: aliceblue;
+
+    font-family: "Courier New" , fantasy;
+    align-content: center;
+}
+
+h3{
+    color: aliceblue;
+    text-align : right;
+    font-size:20px;
+    word-spacing: .5em;
+    font-family: "Courier New", bold , monospace; 
+}
+
+h4{
+    color: aliceblue;
+    text-align: center;
+    font-family: "Courier New";
+    font-size: 25px;
+}
+
+ul{
+  list-style-image: url(../Assingnment1/rsz_2list.png)
+
+  
+}
+
+.topbar {
+  overflow: hidden;
+  background-color: rgb(8, 60, 73);
+  font-family: "Courier New", bold , monospace;
+}
+
+.topbar a {
+  float: left;
+  display: -moz-inline-stack;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: grey;
+  border: 20px;
+}
+
+.topbar a:hover {
+  background-color: rgb(15, 168, 206);
+  color: black;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.button{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button{
+  background: none;
+  color: #ccc;
+  width: 240px;
+  height: 80px;
+  border: 1px solid #338033;
+  font-size: 18px;
+  border-radius: 4px;
+
+
+}
+
+.img{
+align-content: center;
+text-align: center;
+
+
+}
+{
+	box-sizing: border-box;
+}

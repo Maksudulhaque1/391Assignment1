@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <style>
+        p.right{
+            text-align: center;
+        }
+        p.left{
+            text-align: center;
+        }
+        p.small{
+            font-size: 40px;         
+        }
+        p.aboutme{
+            color: rgb(255, 255, 255);
+            font-family: "Courier New", bold , monospace;
+            font-size: 25px;
+        }
+        p.lastupdate{
+            color:aliceblue;
+            text-align: right;
+        }
+        img {
+            width: 100%;
+            height: 500px;
+            opacity: 0.9;
+            filter: alpha(opacity=50);
+        }
+        a{
+            color: rgb(8, 75, 75);
+        }
+        
+        ul{
+            text-align: center;
+            padding: 50px;
+            font-family:'Courier New', Courier, monospace;
+            font-size: 35px;
+        }
+
+        ul li {
+            color: aliceblue;
+            padding: 10px;
+            margin-left: 35px;
+        }
+        
+    </style>
+    <title>Maksudul Haque - Assignment 01
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <a href="index.html">Home</a>
+        <a href="#aboutme">About Me</a>
+        <a href="hobbies.html" target="_blank">Hobbies</a>    
+    </div>
+
+    <div class="container">
+        <img src="top.jpeg" alt="top image" >
+        <div class="centered">
+            <h1>Maksudul Haque</h1> 
+            <h2> Welcome to my personal landing page </h2>
+        </div>
+    </div>
+    <br> 
+    <h1 id="aboutme">About Me</h1>
+    <p class="aboutme">An aspiring copywriter who loves to explore. love to know about computers and upcoming tech . Check my  <a href="https://www.linkedin.com/in/maksudul-haque-556159152/" target="_blank">LinkedIn</a> profile. Get in touch with me in <a href="https://www.facebook.com/abir.Lubdhok" target="_blank">Facebook</a> if you are into memes.<br>
+      
+        Currently doing my bachelors in <a href="https://www.bracu.ac.bd" target="_blank">BRAC University</a>. My cse391 course  <a href="https://piazza.com/class/kc7nicp7ie64bq#" target="_blank">Piazza</a> Link is in the hyperlink .<br> I like to play football , computer games. i am a songwriter and composer. beside that i am a copywriter working with various prominent brands in  Bagladesh. To see more of my <a href="hobbies.html" target="blank">Hobbies</a> you know where to go.<br> <a href="https://https://github.com/Maksudulhaque1?fbclid=IwAR1SdZAbYo14xtr1W5iMdnklDAbnsn5c_wU8INMfGwP-KmPMDmfZwoYiy8U" target="_blank">Github</a> is where i keep my repos. <br><br></p>
+        
+        <h4>Favorite Quote</h4>
+        <h4>“The funny thing is, on the outside I was an honest man. Straight as an arrow. I had to come to prison to be a crook.”<br><b>~Andy Dufresne</b></h4>
+
+        <h1>Movies I love</h1>
+    <ul>
+        <li><b>Forrest Gump</b></li>
+        <li><b>The Shawshawnk redemption</b></li>
+        <li><b>The persuit of Happyness</b></li>
+        <li><b>The Dark Knight</b></li>
+        <li><b>Joker</b></li>
+    </ul>
+    <div class="button">
+
+        <button onclick="Footer()">Check Last Modified Date</button>
+        <p class="lastupdate" id="demo"></p>
+        <script>
+        function Footer() {
+             var x = new Date(document.lastModified);
+         document.getElementById("demo").innerHTML = x;
+        }
+        </script>
+    </div>
+   
+    
+</body>
+</html>
